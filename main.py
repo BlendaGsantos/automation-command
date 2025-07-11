@@ -25,17 +25,18 @@ print(drive.name)
 
 #HTML(drive.page_source)
 
-prit (drive.get(''))
+#prit (drive.get(''))
 
 
-print(drive.back())
+#print(drive.back())
 
 
-print (drive.forward())
+#print (drive.forward())
 
 drive.close() #aba
 
 
 drive.quit() #ALL
+
 
 

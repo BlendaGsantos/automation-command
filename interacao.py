@@ -13,6 +13,10 @@ signo = driver.find_element(By.ID, 'zodiac').get_property('value')
 print(f'{signo=}')
 
 
-genero = driver.find_element(By.NAME, 'genderOfBirth').get_property('value')
-print(f'Gênero: {genero}')
 
+def find_name():
+    genero = driver.find_element(By.NAME, 'genderOfBirth').get_property('value')
+    print(f'Gênero: {genero}')
+
+
+find_name()
